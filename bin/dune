@@ -1,0 +1,5 @@
+(executable
+ (public_name monitoring)
+ (name main)
+ (libraries monitoring_lib)
+)

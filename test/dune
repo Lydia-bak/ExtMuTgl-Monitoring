@@ -1,0 +1,20 @@
+
+(env
+ (profile
+  (flags (:standard -g))))
+  
+; (test
+;  (name test_main)
+;  (libraries monitoring_lib)
+;  )
+
+; (test
+;  (name test_cbba)
+;  (libraries monitoring_lib)
+; ;  (deps ../data.csv)
+;  )
+(test
+ (name test_cbba_it)
+ (libraries monitoring_lib unix)
+;  (deps ../data.csv)
+ )

@@ -1,0 +1,37 @@
+{
+  0. -> {
+    0. -> {
+      0. -> Between({b}, {a, b, c, d, e, f})
+      inf -> Between({b}, {a, b, c, d, e, f})
+    }
+    1. -> {
+      0. -> Between({b}, {a, b, c, d, e, f})
+      inf -> Between({b}, {a, b, c, d, e, f})
+    }
+    2. -> {
+      0. -> Between({b}, {a, b, c, d, e, f})
+      1. -> Between({a, b}, {a, b, c, d, e, f})
+      2. -> Between({a, b, c}, {a, b, c, d, e, f})
+      inf -> Between({a, b, c, d, e, f}, {a, b, c, d, e, f})
+    }
+  }
+  1. -> {
+    0. -> {
+      0. -> Between({b}, {a, b, c, d, e, f})
+      inf -> Between({b}, {a, b, c, d, e, f})
+    }
+    1. -> {
+      0. -> Between({b}, {a, b, c, d, e, f})
+      1. -> Between({a, b}, {a, b, c, d, e, f})
+      2. -> Between({a, b, c}, {a, b, c, d, e, f})
+      inf -> Between({a, b, c, d, e}, {a, b, c, d, e, f})
+    }
+  }
+  2. -> {
+    0. -> {
+      0. -> Between({b}, {a, b, c, d, e, f})
+      1. -> Between({a, b}, {a, b, c, d, e, f})
+      inf -> Between({a, b}, {a, b, c, d, e, f})
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  0. -> {
+    0. -> {
+      0. -> Between({a}, {a})
+      1. -> Between({a, b}, {a, b})
+      2. -> Between({a, c}, {a, c})
+      3. -> Between({a}, {a})
+    }
+  }
+}

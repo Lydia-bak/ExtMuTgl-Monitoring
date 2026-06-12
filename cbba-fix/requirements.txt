@@ -1,0 +1,11 @@
+# pygame -> conda-forge
+# py-trees -> pip install py_trees
+pyyaml
+imageio
+pandas
+matplotlib
+seaborn
+pyyaml # -> was missing
+#imageio -> was missing, in conda-forge
+matplotlib # -> was missing
+pandas # -> was missing
